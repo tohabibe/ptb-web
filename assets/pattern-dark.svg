@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="150" viewBox="0 0 300 150" fill="none" stroke="#2574BB" stroke-opacity=".28" stroke-width="1.6" stroke-linejoin="round">
+  <!-- Approximation of the PureTalk Business pattern (rounded triangles from the logo mark). Replace with the official pattern file if one exists. -->
+  <path d="M30 12h96a12 12 0 0 1 12 12v96a6 6 0 0 1-10.2 4.2L25.8 22.2A6 6 0 0 1 30 12z"/>
+  <path d="M12 30a6 6 0 0 1 10.2-4.2l102 102a6 6 0 0 1-4.2 10.2H24a12 12 0 0 1-12-12z"/>
+  <path d="M270 12h-96a12 12 0 0 0-12 12v96a6 6 0 0 0 10.2 4.2l102-102A6 6 0 0 0 270 12z"/>
+  <path d="M288 30a6 6 0 0 0-10.2-4.2l-102 102a6 6 0 0 0 4.2 10.2h96a12 12 0 0 0 12-12z"/>
+</svg>
