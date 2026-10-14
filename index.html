@@ -175,7 +175,7 @@ header.site{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.97);ba
 .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 @media (max-width:420px){.row2{grid-template-columns:1fr}}
 .lines-picker{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
-.lines-picker input{position:absolute;opacity:0;pointer-events:none}
+.lines-picker input{position:absolute;opacity:0;pointer-events:none;width:1px;height:1px;margin:0}
 .lines-picker label{display:block;text-align:center;padding:11px 4px;border:1.5px solid var(--silver);border-radius:10px;font-weight:600;cursor:pointer;margin:0;font-size:.9rem;color:var(--charcoal)}
 .lines-picker input:checked+label{border-color:var(--blue);background:var(--blue-tint);color:var(--blue)}
 .lines-picker input:focus-visible+label{outline:3px solid var(--sky)}
@@ -308,7 +308,7 @@ input[type=range]{width:100%;accent-color:var(--blue);height:6px}
 
 /* Footer */
 footer{background:#fff;color:var(--charcoal);font-size:.86rem}
-.foot-inner{padding:52px 0 32px}
+.foot-inner{padding-top:52px;padding-bottom:32px}
 .foot-top{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap;padding-bottom:28px;border-bottom:1px solid var(--line);margin-bottom:24px}
 footer .logo img{height:52px}
 .tagline{font-weight:700;font-size:1.25rem;margin:0}

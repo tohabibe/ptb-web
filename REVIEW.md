@@ -73,6 +73,7 @@ Redesign: [index.html](index.html) — single static file, no build step.
 
 ## Before launch: things to verify or replace
 - [x] **Logo:** official 3-color horizontal logo is in place (`assets/ptb-logo-3color.svg`). The 2-color and white SVGs are also in `assets/` for dark backgrounds.
+- [x] **Visual QA:** full-page check in headless Chromium at 1440, 820 and 390px. Fixed horizontal scroll on tablet/phone (hidden line-picker radios inherited `width:100%`) and the missing side gutter in the mobile footer. Re-check on real iOS/Android devices before launch.
 - [ ] **Brand pattern:** `assets/pattern-*.svg` is redrawn to approximate the guideline pattern. Swap in the official pattern file if design has one.
 - [ ] **Values photo:** add a licensed, on-brand photo at `assets/values.jpg` and uncomment the `<img>` in the values section.
 - [ ] **HubSpot field names:** the form posts to portal `50596285` / form `76b117d4-…` (taken from the live embed). Confirm the internal names `company`, `firstname`, `email`, `phone`, `lines` match, or add the missing properties. Submission only fires on the production domain.
